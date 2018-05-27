@@ -1,0 +1,25 @@
+{
+  "name": "store-js",
+  "version": "1.0.0",
+  "description": "Little Store Js for NodeJs and The front dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalvaCrea/store-js.git"
+  },
+  "keywords": [
+    "js",
+    "store",
+    "nodejs",
+    "front"
+  ],
+  "author": "Salvador Cardona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SalvaCrea/store-js/issues"
+  },
+  "homepage": "https://github.com/SalvaCrea/store-js#readme"
+}
