@@ -1,5 +1,5 @@
 {
-  "name": "store-js",
+  "name": "basic-store-js",
   "version": "1.0.0",
   "description": "Little Store Js for NodeJs and The front dev",
   "main": "index.js",
