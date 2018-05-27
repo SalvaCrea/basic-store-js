@@ -1,11 +1,10 @@
 /**
- * A little store of data
  * @type {Object}
  */
 module.exports = {
     data: {},
     /**
-     * Used for stock a variable
+     * Used for stocking a variable
      * @param  {[string]} key   Key name of value
      * @param  {[array, string, object]} value The variable to store
      */
@@ -13,7 +12,7 @@ module.exports = {
         this.data[key] = value;
     },
     /**
-     * Used for get a variable
+     * Used for getting a variable
      * @param  {[string]} key Key name of value
      * @return {[array, string, object, undefined]}  return the value stored or 'undefined' if not present
      */
