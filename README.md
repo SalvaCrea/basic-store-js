@@ -17,13 +17,13 @@ Example in the main file
     store.set('app', app);
     store.set('io', io);
 
-In Other Module
+In another module
 
 	var store       = require('basic-store-js');
     var io          = store.get('io');
     var app         = store.get('app');
 
-## In Font Js
+## In Front Js
 
     import store from "basic-store-js";
     import SocketClient from 'socket.io-client';

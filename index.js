@@ -4,7 +4,7 @@
 module.exports = {
     data: {},
     /**
-     * Used for stocking a variable
+     * used to store variables
      * @param  {[string]} key   Key name of value
      * @param  {[array, string, object]} value The variable to store
      */
@@ -12,7 +12,7 @@ module.exports = {
         this.data[key] = value;
     },
     /**
-     * Used for getting a variable
+     * used to get the variables
      * @param  {[string]} key Key name of value
      * @return {[array, string, object, undefined]}  return the value stored or 'undefined' if not present
      */
@@ -24,6 +24,10 @@ module.exports = {
         }
         return undefined;
     },
+    /**
+     * used to delete variables
+     * @param  {[type]} key key Key name of value
+     */
     remove: function (key) {
         delete this.data[key];
     }
