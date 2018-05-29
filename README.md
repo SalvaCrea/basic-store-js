@@ -1,6 +1,6 @@
 
 # basic-store-js
-Little Store Js for NodeJs and The front dev
+Small store Js for NodeJs and front dev
 
 ## Install
 
