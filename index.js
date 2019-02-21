@@ -43,10 +43,10 @@ module.exports = {
         return false;
     },
     isPresent: function (key) {
-        return typeof this.data[key] !== "undefined" ?  true : false;
+        return typeof this.data[key] !== "undefined";
     },
     isKey: function (key) {
-        return typeof key === 'string' ?  true : false;
+        return typeof key === 'string';
     }
 }
 
